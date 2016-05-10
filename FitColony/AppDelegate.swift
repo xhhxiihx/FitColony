@@ -7,15 +7,34 @@
 //
 
 import UIKit
+import AVOSCloud
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
-
+    
     var window: UIWindow?
 
 
+    
     func application(application: UIApplication, didFinishLaunchingWithOptions launchOptions: [NSObject: AnyObject]?) -> Bool {
         // Override point for customization after application launch.
+        
+        HDprofile.registerSubclass()
+        HDsport.registerSubclass()
+        HDsleep.registerSubclass()
+        NPrecord.registerSubclass()
+        UserProfile.registerSubclass()
+        FCHealthCircle.registerSubclass()
+        FCUserHealthCircle.registerSubclass()
+        FCHealthCircleTwitter.registerSubclass()
+        
+        hourformat.dateFormat="HH:mm"
+        dayformat.dateFormat="yyyy-MM-dd"
+        dateformat.dateFormat="yyyy-MM-dd HH:mm"
+        weekdayformat.dateFormat="MMM dd"
+        sleepformat.dateFormat="HH"
+        
+        AVOSCloud.setApplicationId("WiSF4icc4eDKJPWdIxCpPMJH-gzGzoHsz", clientKey: "ueiLRTEmhj4KByQtwxfVtdub")
         return true
     }
 

@@ -7,14 +7,74 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8B0CEF5F1C8D6A010008D4FC /* sleepViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B0CEF5E1C8D6A010008D4FC /* sleepViewController.swift */; };
+		8B0CEF621C8D716A0008D4FC /* FCSetCharts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B0CEF611C8D716A0008D4FC /* FCSetCharts.swift */; };
+		8B11910A1CA40735007CB1FC /* PublicStruct.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B1191091CA40735007CB1FC /* PublicStruct.swift */; };
+		8B1923EA1C982F820015E980 /* inputsleepTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B1923E91C982F820015E980 /* inputsleepTableViewController.swift */; };
+		8B1A4E941CA3C9B8000B4CBB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8B1A4E931CA3C9B8000B4CBB /* Main.storyboard */; };
+		8B1E46201CA247790098ED9E /* FCUIcolor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B1E461F1CA247790098ED9E /* FCUIcolor.swift */; };
+		8B2184821C96631C00ABBC52 /* forgetpasswordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B2184811C96631C00ABBC52 /* forgetpasswordViewController.swift */; };
+		8B2184881C96770200ABBC52 /* inputsportTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B2184871C96770200ABBC52 /* inputsportTableViewController.swift */; };
+		8B262A861C96E793005663F8 /* HDsport.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B262A851C96E793005663F8 /* HDsport.swift */; };
+		8B262A881C96E895005663F8 /* HDsleep.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B262A871C96E895005663F8 /* HDsleep.swift */; };
+		8B37D6FD1CAA270E00F72CEB /* AVUser+FC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B37D6FC1CAA270E00F72CEB /* AVUser+FC.swift */; };
+		8B37D7021CAA389200F72CEB /* addNotificationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B37D7011CAA389200F72CEB /* addNotificationViewController.swift */; };
+		8B37D7051CAA395C00F72CEB /* UIViewController+FC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B37D7041CAA395C00F72CEB /* UIViewController+FC.swift */; };
+		8B3C182A1CDF3E6500E9843F /* FCHealthCircle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B3C18291CDF3E6500E9843F /* FCHealthCircle.swift */; };
+		8B3C182F1CDF3FB300E9843F /* FCUserHealthCircle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B3C182E1CDF3FB300E9843F /* FCUserHealthCircle.swift */; };
+		8B3C18311CDF407F00E9843F /* FCHealthCircleTwitter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B3C18301CDF407F00E9843F /* FCHealthCircleTwitter.swift */; };
+		8B3C18361CDF442B00E9843F /* CircleTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B3C18351CDF442B00E9843F /* CircleTableViewController.swift */; };
+		8B3C18381CDF457800E9843F /* addCircleTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B3C18371CDF457800E9843F /* addCircleTableViewController.swift */; };
+		8B3C183A1CDF75B400E9843F /* CircleTwitterTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B3C18391CDF75B400E9843F /* CircleTwitterTableViewController.swift */; };
+		8B3C183C1CE0A09700E9843F /* addCircleTwitterTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B3C183B1CE0A09700E9843F /* addCircleTwitterTableViewController.swift */; };
+		8B40C17F1C9191070030AD1B /* sportViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B40C17E1C9191070030AD1B /* sportViewController.swift */; };
+		8B40C1841C91915F0030AD1B /* profileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B40C1831C91915F0030AD1B /* profileViewController.swift */; };
+		8B4238181CAD4A09004D54AF /* nameTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B4238171CAD4A09004D54AF /* nameTableViewController.swift */; };
+		8B42381D1CAD50A2004D54AF /* areaTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B42381C1CAD50A2004D54AF /* areaTableViewController.swift */; };
+		8B42381F1CAD50C3004D54AF /* briefTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B42381E1CAD50C3004D54AF /* briefTableViewController.swift */; };
+		8B4238211CAD50F5004D54AF /* emailTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B4238201CAD50F5004D54AF /* emailTableViewController.swift */; };
+		8B4B1E201C97ED6B00A9AA17 /* Publicdateformat.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B4B1E1F1C97ED6B00A9AA17 /* Publicdateformat.swift */; };
+		8B529BAA1C9122F200AEC68C /* loginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B529BA91C9122F200AEC68C /* loginViewController.swift */; };
+		8B529BAC1C91232C00AEC68C /* registerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B529BAB1C91232C00AEC68C /* registerViewController.swift */; };
+		8B60C7B71C93ED0100E2CCF7 /* HDprofile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B60C7B61C93ED0100E2CCF7 /* HDprofile.swift */; };
+		8B64DC891C97C7F6003CBF32 /* sportandcomsumption.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B64DC881C97C7F6003CBF32 /* sportandcomsumption.swift */; };
+		8B6C49091CAA2542008B993D /* PublicFunction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B6C49081CAA2542008B993D /* PublicFunction.swift */; };
+		8B70C0251CE189B800D2F2ED /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8B70C0241CE189B800D2F2ED /* Assets.xcassets */; };
+		8B725B9C1C9D68AD0021A5AA /* NavigationBarHeight.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B725B9B1C9D68AD0021A5AA /* NavigationBarHeight.swift */; };
+		8B8BDBE71CABB72C00C99312 /* NPrecord.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B8BDBE61CABB72C00C99312 /* NPrecord.swift */; };
+		8B8BF0E81CACE792009AE4E2 /* myProfileTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B8BF0E71CACE792009AE4E2 /* myProfileTableViewController.swift */; };
+		8B8BF0EF1CACF1EE009AE4E2 /* avatarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B8BF0EE1CACF1EE009AE4E2 /* avatarViewController.swift */; };
 		8B8DAB121C8D156A00122A8B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B8DAB111C8D156A00122A8B /* AppDelegate.swift */; };
-		8B8DAB141C8D156A00122A8B /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B8DAB131C8D156A00122A8B /* FirstViewController.swift */; };
-		8B8DAB161C8D156A00122A8B /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B8DAB151C8D156A00122A8B /* SecondViewController.swift */; };
-		8B8DAB191C8D156A00122A8B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8B8DAB171C8D156A00122A8B /* Main.storyboard */; };
-		8B8DAB1B1C8D156A00122A8B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8B8DAB1A1C8D156A00122A8B /* Assets.xcassets */; };
+		8B8DAB141C8D156A00122A8B /* healthdataViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B8DAB131C8D156A00122A8B /* healthdataViewController.swift */; };
+		8B8DAB161C8D156A00122A8B /* NotificationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B8DAB151C8D156A00122A8B /* NotificationViewController.swift */; };
 		8B8DAB1E1C8D156A00122A8B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8B8DAB1C1C8D156A00122A8B /* LaunchScreen.storyboard */; };
 		8B8DAB291C8D156A00122A8B /* FitColonyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B8DAB281C8D156A00122A8B /* FitColonyTests.swift */; };
 		8B8DAB341C8D156A00122A8B /* FitColonyUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B8DAB331C8D156A00122A8B /* FitColonyUITests.swift */; };
+		8B8DAB4B1C8D25D900122A8B /* AVOSCloud.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8B8DAB481C8D25D900122A8B /* AVOSCloud.framework */; };
+		8B8DAB4C1C8D25D900122A8B /* AVOSCloudCrashReporting.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8B8DAB491C8D25D900122A8B /* AVOSCloudCrashReporting.framework */; };
+		8B8DAB4D1C8D25D900122A8B /* AVOSCloudIM.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8B8DAB4A1C8D25D900122A8B /* AVOSCloudIM.framework */; };
+		8B8DAB4E1C8D25E800122A8B /* AVOSCloud.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8B8DAB481C8D25D900122A8B /* AVOSCloud.framework */; };
+		8B8DAB4F1C8D25E800122A8B /* AVOSCloud.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 8B8DAB481C8D25D900122A8B /* AVOSCloud.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		8B8DAB501C8D25E800122A8B /* AVOSCloudCrashReporting.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8B8DAB491C8D25D900122A8B /* AVOSCloudCrashReporting.framework */; };
+		8B8DAB511C8D25E800122A8B /* AVOSCloudCrashReporting.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 8B8DAB491C8D25D900122A8B /* AVOSCloudCrashReporting.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		8B8DAB521C8D25E800122A8B /* AVOSCloudIM.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8B8DAB4A1C8D25D900122A8B /* AVOSCloudIM.framework */; };
+		8B8DAB531C8D25E800122A8B /* AVOSCloudIM.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 8B8DAB4A1C8D25D900122A8B /* AVOSCloudIM.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		8B97E2191CACCF1300A0BF05 /* UserProfile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B97E2181CACCF1300A0BF05 /* UserProfile.swift */; };
+		8B9995941C92C21100BBB181 /* MyInformationPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B9995931C92C21100BBB181 /* MyInformationPageViewController.swift */; };
+		8B9995961C92C27700BBB181 /* inputprofileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B9995951C92C27700BBB181 /* inputprofileViewController.swift */; };
+		8B9995981C92C2CE00BBB181 /* inputsportViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B9995971C92C2CE00BBB181 /* inputsportViewController.swift */; };
+		8B99959A1C92C30700BBB181 /* inputsleepViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B9995991C92C30700BBB181 /* inputsleepViewController.swift */; };
+		8BA02B9B1C97E55B00D3A8A3 /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BA02B9A1C97E55B00D3A8A3 /* TableViewCell.swift */; };
+		8BB4588D1C8EDF8A00E58712 /* FCDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BB4588C1C8EDF8A00E58712 /* FCDelegate.swift */; };
+		8BB650A31CA1265800CDFF56 /* UICountingLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BB650A21CA1265800CDFF56 /* UICountingLabel.swift */; };
+		8BB8E69D1C9D556000AE5368 /* InformationSettingTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BB8E69C1C9D556000AE5368 /* InformationSettingTableViewController.swift */; };
+		8BBD690C1C9FDCDD007BF674 /* Mycalender.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BBD690B1C9FDCDD007BF674 /* Mycalender.swift */; };
+		8BC88C431CA0077500D842F4 /* CircleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BC88C421CA0077500D842F4 /* CircleView.swift */; };
+		8BD57BEF1CAE485300ECF0B2 /* oldpasswordupdateTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BD57BEE1CAE485300ECF0B2 /* oldpasswordupdateTableViewController.swift */; };
+		8BDD878E1CAE2DF6007062F0 /* SettingTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BDD878D1CAE2DF6007062F0 /* SettingTableViewController.swift */; };
+		8BF51E811CB25DC90053C18D /* Charts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8BF51E7A1CB25DBF0053C18D /* Charts.framework */; };
+		8BF51E821CB25DCA0053C18D /* Charts.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 8BF51E7A1CB25DBF0053C18D /* Charts.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		C878BB013AF1A357242424DF /* Pods.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8A5B1E2860DECC49A8DB7DD7 /* Pods.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -32,15 +92,103 @@
 			remoteGlobalIDString = 8B8DAB0D1C8D156A00122A8B;
 			remoteInfo = FitColony;
 		};
+		8BF51E791CB25DBF0053C18D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8BF51E721CB25DBF0053C18D /* Charts.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 5BA8EC401A9D14DC00CE82E1;
+			remoteInfo = "Charts-iOS";
+		};
+		8BF51E7B1CB25DBF0053C18D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8BF51E721CB25DBF0053C18D /* Charts.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = A52C5C371BAC5CA400594CDD;
+			remoteInfo = "Charts-TV";
+		};
+		8BF51E7D1CB25DBF0053C18D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8BF51E721CB25DBF0053C18D /* Charts.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 65B3F5BF1C7370BE000983D0;
+			remoteInfo = "Charts-OSX";
+		};
+		8BF51E7F1CB25DBF0053C18D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8BF51E721CB25DBF0053C18D /* Charts.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 06AEE7A21BDC3F8B009875AE;
+			remoteInfo = ChartsTests;
+		};
+		8BF51E831CB25DCA0053C18D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8BF51E721CB25DBF0053C18D /* Charts.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 5BA8EC3F1A9D14DC00CE82E1;
+			remoteInfo = "Charts-iOS";
+		};
 /* End PBXContainerItemProxy section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		8B8DAB541C8D25E800122A8B /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				8B8DAB511C8D25E800122A8B /* AVOSCloudCrashReporting.framework in Embed Frameworks */,
+				8BF51E821CB25DCA0053C18D /* Charts.framework in Embed Frameworks */,
+				8B8DAB4F1C8D25E800122A8B /* AVOSCloud.framework in Embed Frameworks */,
+				8B8DAB531C8D25E800122A8B /* AVOSCloudIM.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
-		8B8DAB0E1C8D156A00122A8B /* FitColony.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FitColony.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8A5B1E2860DECC49A8DB7DD7 /* Pods.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8B0CEF5E1C8D6A010008D4FC /* sleepViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = sleepViewController.swift; sourceTree = "<group>"; };
+		8B0CEF611C8D716A0008D4FC /* FCSetCharts.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FCSetCharts.swift; sourceTree = "<group>"; };
+		8B1191091CA40735007CB1FC /* PublicStruct.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PublicStruct.swift; sourceTree = "<group>"; };
+		8B1923E91C982F820015E980 /* inputsleepTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = inputsleepTableViewController.swift; sourceTree = "<group>"; };
+		8B1A4E931CA3C9B8000B4CBB /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		8B1E461F1CA247790098ED9E /* FCUIcolor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FCUIcolor.swift; sourceTree = "<group>"; };
+		8B2184811C96631C00ABBC52 /* forgetpasswordViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = forgetpasswordViewController.swift; path = FitColony/forgetpasswordViewController.swift; sourceTree = "<group>"; };
+		8B2184871C96770200ABBC52 /* inputsportTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = inputsportTableViewController.swift; sourceTree = "<group>"; };
+		8B262A851C96E793005663F8 /* HDsport.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HDsport.swift; sourceTree = "<group>"; };
+		8B262A871C96E895005663F8 /* HDsleep.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HDsleep.swift; sourceTree = "<group>"; };
+		8B37D6FC1CAA270E00F72CEB /* AVUser+FC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "AVUser+FC.swift"; sourceTree = "<group>"; };
+		8B37D7011CAA389200F72CEB /* addNotificationViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = addNotificationViewController.swift; path = FitColony/addNotificationViewController.swift; sourceTree = "<group>"; };
+		8B37D7041CAA395C00F72CEB /* UIViewController+FC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIViewController+FC.swift"; sourceTree = "<group>"; };
+		8B3C18291CDF3E6500E9843F /* FCHealthCircle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FCHealthCircle.swift; sourceTree = "<group>"; };
+		8B3C182E1CDF3FB300E9843F /* FCUserHealthCircle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FCUserHealthCircle.swift; sourceTree = "<group>"; };
+		8B3C18301CDF407F00E9843F /* FCHealthCircleTwitter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FCHealthCircleTwitter.swift; sourceTree = "<group>"; };
+		8B3C18351CDF442B00E9843F /* CircleTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CircleTableViewController.swift; sourceTree = "<group>"; };
+		8B3C18371CDF457800E9843F /* addCircleTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = addCircleTableViewController.swift; path = FitColony/addCircleTableViewController.swift; sourceTree = "<group>"; };
+		8B3C18391CDF75B400E9843F /* CircleTwitterTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CircleTwitterTableViewController.swift; path = Classes/CircleTwitterTableViewController.swift; sourceTree = "<group>"; };
+		8B3C183B1CE0A09700E9843F /* addCircleTwitterTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = addCircleTwitterTableViewController.swift; path = FitColony/addCircleTwitterTableViewController.swift; sourceTree = "<group>"; };
+		8B40C17E1C9191070030AD1B /* sportViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = sportViewController.swift; path = FitColony/sportViewController.swift; sourceTree = "<group>"; };
+		8B40C1831C91915F0030AD1B /* profileViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = profileViewController.swift; sourceTree = "<group>"; };
+		8B4238171CAD4A09004D54AF /* nameTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = nameTableViewController.swift; path = FitColony/nameTableViewController.swift; sourceTree = "<group>"; };
+		8B42381C1CAD50A2004D54AF /* areaTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = areaTableViewController.swift; path = FitColony/areaTableViewController.swift; sourceTree = "<group>"; };
+		8B42381E1CAD50C3004D54AF /* briefTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = briefTableViewController.swift; path = FitColony/briefTableViewController.swift; sourceTree = "<group>"; };
+		8B4238201CAD50F5004D54AF /* emailTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = emailTableViewController.swift; sourceTree = "<group>"; };
+		8B4B1E1F1C97ED6B00A9AA17 /* Publicdateformat.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Publicdateformat.swift; sourceTree = "<group>"; };
+		8B529BA91C9122F200AEC68C /* loginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = loginViewController.swift; sourceTree = "<group>"; };
+		8B529BAB1C91232C00AEC68C /* registerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = registerViewController.swift; sourceTree = "<group>"; };
+		8B60C7B61C93ED0100E2CCF7 /* HDprofile.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HDprofile.swift; sourceTree = "<group>"; };
+		8B64DC881C97C7F6003CBF32 /* sportandcomsumption.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = sportandcomsumption.swift; sourceTree = "<group>"; };
+		8B6C49081CAA2542008B993D /* PublicFunction.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PublicFunction.swift; sourceTree = "<group>"; };
+		8B70C0241CE189B800D2F2ED /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8B725B9B1C9D68AD0021A5AA /* NavigationBarHeight.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = NavigationBarHeight.swift; path = FitColony/NavigationBarHeight.swift; sourceTree = "<group>"; };
+		8B8BDBE61CABB72C00C99312 /* NPrecord.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NPrecord.swift; sourceTree = "<group>"; };
+		8B8BF0E71CACE792009AE4E2 /* myProfileTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = myProfileTableViewController.swift; path = FitColony/myProfileTableViewController.swift; sourceTree = "<group>"; };
+		8B8BF0EE1CACF1EE009AE4E2 /* avatarViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = avatarViewController.swift; path = FitColony/avatarViewController.swift; sourceTree = "<group>"; };
+		8B8DAB0E1C8D156A00122A8B /* FitCommunity.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FitCommunity.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8B8DAB111C8D156A00122A8B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		8B8DAB131C8D156A00122A8B /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
-		8B8DAB151C8D156A00122A8B /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
-		8B8DAB181C8D156A00122A8B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		8B8DAB1A1C8D156A00122A8B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8B8DAB131C8D156A00122A8B /* healthdataViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = healthdataViewController.swift; path = FitColony/healthdataViewController.swift; sourceTree = "<group>"; };
+		8B8DAB151C8D156A00122A8B /* NotificationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = NotificationViewController.swift; path = FitColony/NotificationViewController.swift; sourceTree = "<group>"; };
 		8B8DAB1D1C8D156A00122A8B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8B8DAB1F1C8D156A00122A8B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8B8DAB241C8D156A00122A8B /* FitColonyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FitColonyTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -49,6 +197,25 @@
 		8B8DAB2F1C8D156A00122A8B /* FitColonyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FitColonyUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8B8DAB331C8D156A00122A8B /* FitColonyUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FitColonyUITests.swift; sourceTree = "<group>"; };
 		8B8DAB351C8D156A00122A8B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8B8DAB481C8D25D900122A8B /* AVOSCloud.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = AVOSCloud.framework; sourceTree = "<group>"; };
+		8B8DAB491C8D25D900122A8B /* AVOSCloudCrashReporting.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = AVOSCloudCrashReporting.framework; sourceTree = "<group>"; };
+		8B8DAB4A1C8D25D900122A8B /* AVOSCloudIM.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = AVOSCloudIM.framework; sourceTree = "<group>"; };
+		8B97E2181CACCF1300A0BF05 /* UserProfile.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserProfile.swift; sourceTree = "<group>"; };
+		8B9995931C92C21100BBB181 /* MyInformationPageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MyInformationPageViewController.swift; path = FitColony/MyInformationPageViewController.swift; sourceTree = "<group>"; };
+		8B9995951C92C27700BBB181 /* inputprofileViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = inputprofileViewController.swift; path = FitColony/inputprofileViewController.swift; sourceTree = "<group>"; };
+		8B9995971C92C2CE00BBB181 /* inputsportViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = inputsportViewController.swift; sourceTree = "<group>"; };
+		8B9995991C92C30700BBB181 /* inputsleepViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = inputsleepViewController.swift; sourceTree = "<group>"; };
+		8BA02B9A1C97E55B00D3A8A3 /* TableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
+		8BB4588C1C8EDF8A00E58712 /* FCDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FCDelegate.swift; sourceTree = "<group>"; };
+		8BB650A21CA1265800CDFF56 /* UICountingLabel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UICountingLabel.swift; sourceTree = "<group>"; };
+		8BB8E69C1C9D556000AE5368 /* InformationSettingTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = InformationSettingTableViewController.swift; path = FitColony/InformationSettingTableViewController.swift; sourceTree = "<group>"; };
+		8BBD690B1C9FDCDD007BF674 /* Mycalender.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Mycalender.swift; sourceTree = "<group>"; };
+		8BC88C421CA0077500D842F4 /* CircleView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CircleView.swift; sourceTree = "<group>"; };
+		8BD57BEE1CAE485300ECF0B2 /* oldpasswordupdateTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = oldpasswordupdateTableViewController.swift; path = FitColony/oldpasswordupdateTableViewController.swift; sourceTree = "<group>"; };
+		8BDD878D1CAE2DF6007062F0 /* SettingTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SettingTableViewController.swift; path = FitColony/SettingTableViewController.swift; sourceTree = "<group>"; };
+		8BF51E721CB25DBF0053C18D /* Charts.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Charts.xcodeproj; path = "../../../Downloads/Charts-master/Charts/Charts.xcodeproj"; sourceTree = "<group>"; };
+		BD232FE6EF3F75874BAE2F0C /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+		EA840E1830ED392ADE344975 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +223,14 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8B8DAB501C8D25E800122A8B /* AVOSCloudCrashReporting.framework in Frameworks */,
+				8BF51E811CB25DC90053C18D /* Charts.framework in Frameworks */,
+				8B8DAB4C1C8D25D900122A8B /* AVOSCloudCrashReporting.framework in Frameworks */,
+				8B8DAB4B1C8D25D900122A8B /* AVOSCloud.framework in Frameworks */,
+				8B8DAB4D1C8D25D900122A8B /* AVOSCloudIM.framework in Frameworks */,
+				8B8DAB4E1C8D25E800122A8B /* AVOSCloud.framework in Frameworks */,
+				8B8DAB521C8D25E800122A8B /* AVOSCloudIM.framework in Frameworks */,
+				C878BB013AF1A357242424DF /* Pods.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -76,20 +251,89 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		8B0CEF601C8D70FD0008D4FC /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				8B37D7041CAA395C00F72CEB /* UIViewController+FC.swift */,
+				8B1191091CA40735007CB1FC /* PublicStruct.swift */,
+				8B64DC881C97C7F6003CBF32 /* sportandcomsumption.swift */,
+				8B1E461F1CA247790098ED9E /* FCUIcolor.swift */,
+				8BB650A21CA1265800CDFF56 /* UICountingLabel.swift */,
+				8BBD690B1C9FDCDD007BF674 /* Mycalender.swift */,
+				8B4B1E1F1C97ED6B00A9AA17 /* Publicdateformat.swift */,
+				8B6C49081CAA2542008B993D /* PublicFunction.swift */,
+				8BA02B9A1C97E55B00D3A8A3 /* TableViewCell.swift */,
+				8BB4588C1C8EDF8A00E58712 /* FCDelegate.swift */,
+				8B37D6FC1CAA270E00F72CEB /* AVUser+FC.swift */,
+				8B60C7B61C93ED0100E2CCF7 /* HDprofile.swift */,
+				8B262A851C96E793005663F8 /* HDsport.swift */,
+				8B262A871C96E895005663F8 /* HDsleep.swift */,
+				8B8BDBE61CABB72C00C99312 /* NPrecord.swift */,
+				8B725B9B1C9D68AD0021A5AA /* NavigationBarHeight.swift */,
+				8BC88C421CA0077500D842F4 /* CircleView.swift */,
+				8B97E2181CACCF1300A0BF05 /* UserProfile.swift */,
+				8B3C18291CDF3E6500E9843F /* FCHealthCircle.swift */,
+				8B3C18301CDF407F00E9843F /* FCHealthCircleTwitter.swift */,
+				8B3C182E1CDF3FB300E9843F /* FCUserHealthCircle.swift */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		8B37D7031CAA389F00F72CEB /* Notification */ = {
+			isa = PBXGroup;
+			children = (
+				8B37D7011CAA389200F72CEB /* addNotificationViewController.swift */,
+				8B8DAB151C8D156A00122A8B /* NotificationViewController.swift */,
+			);
+			name = Notification;
+			sourceTree = "<group>";
+		};
+		8B3C18321CDF43BA00E9843F /* circle */ = {
+			isa = PBXGroup;
+			children = (
+				8B3C18351CDF442B00E9843F /* CircleTableViewController.swift */,
+				8B3C18371CDF457800E9843F /* addCircleTableViewController.swift */,
+				8B3C18391CDF75B400E9843F /* CircleTwitterTableViewController.swift */,
+				8B3C183B1CE0A09700E9843F /* addCircleTwitterTableViewController.swift */,
+			);
+			name = circle;
+			sourceTree = "<group>";
+		};
+		8B8BF0EC1CACE7A3009AE4E2 /* Information&Setting */ = {
+			isa = PBXGroup;
+			children = (
+				8BD57BEE1CAE485300ECF0B2 /* oldpasswordupdateTableViewController.swift */,
+				8BDD878D1CAE2DF6007062F0 /* SettingTableViewController.swift */,
+				8B4238201CAD50F5004D54AF /* emailTableViewController.swift */,
+				8B42381E1CAD50C3004D54AF /* briefTableViewController.swift */,
+				8B42381C1CAD50A2004D54AF /* areaTableViewController.swift */,
+				8B8BF0EE1CACF1EE009AE4E2 /* avatarViewController.swift */,
+				8B4238171CAD4A09004D54AF /* nameTableViewController.swift */,
+				8B8BF0E71CACE792009AE4E2 /* myProfileTableViewController.swift */,
+				8BB8E69C1C9D556000AE5368 /* InformationSettingTableViewController.swift */,
+			);
+			name = "Information&Setting";
+			sourceTree = "<group>";
+		};
 		8B8DAB051C8D156A00122A8B = {
 			isa = PBXGroup;
 			children = (
+				8BF51E721CB25DBF0053C18D /* Charts.xcodeproj */,
+				8B0CEF601C8D70FD0008D4FC /* Model */,
 				8B8DAB101C8D156A00122A8B /* FitColony */,
+				8B8DAB461C8D258800122A8B /* Contorller */,
 				8B8DAB271C8D156A00122A8B /* FitColonyTests */,
 				8B8DAB321C8D156A00122A8B /* FitColonyUITests */,
 				8B8DAB0F1C8D156A00122A8B /* Products */,
+				8B8DAB451C8D256800122A8B /* Frameworks */,
+				D438D0B138A2574E216DC425 /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
 		8B8DAB0F1C8D156A00122A8B /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				8B8DAB0E1C8D156A00122A8B /* FitColony.app */,
+				8B8DAB0E1C8D156A00122A8B /* FitCommunity.app */,
 				8B8DAB241C8D156A00122A8B /* FitColonyTests.xctest */,
 				8B8DAB2F1C8D156A00122A8B /* FitColonyUITests.xctest */,
 			);
@@ -100,10 +344,8 @@
 			isa = PBXGroup;
 			children = (
 				8B8DAB111C8D156A00122A8B /* AppDelegate.swift */,
-				8B8DAB131C8D156A00122A8B /* FirstViewController.swift */,
-				8B8DAB151C8D156A00122A8B /* SecondViewController.swift */,
-				8B8DAB171C8D156A00122A8B /* Main.storyboard */,
-				8B8DAB1A1C8D156A00122A8B /* Assets.xcassets */,
+				8B1A4E931CA3C9B8000B4CBB /* Main.storyboard */,
+				8B70C0241CE189B800D2F2ED /* Assets.xcassets */,
 				8B8DAB1C1C8D156A00122A8B /* LaunchScreen.storyboard */,
 				8B8DAB1F1C8D156A00122A8B /* Info.plist */,
 			);
@@ -128,24 +370,117 @@
 			path = FitColonyUITests;
 			sourceTree = "<group>";
 		};
+		8B8DAB451C8D256800122A8B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8B8DAB471C8D25D900122A8B /* AVOSCloud */,
+				8A5B1E2860DECC49A8DB7DD7 /* Pods.framework */,
+			);
+			name = Frameworks;
+			path = FitColony;
+			sourceTree = "<group>";
+		};
+		8B8DAB461C8D258800122A8B /* Contorller */ = {
+			isa = PBXGroup;
+			children = (
+				8B8BF0EC1CACE7A3009AE4E2 /* Information&Setting */,
+				8B37D7031CAA389F00F72CEB /* Notification */,
+				8BE485A91CA2305A003074A7 /* healthdata */,
+				8BB8E69E1C9D556F00AE5368 /* login&register */,
+				8BB8E69F1C9D558A00AE5368 /* input */,
+				8B3C18321CDF43BA00E9843F /* circle */,
+			);
+			name = Contorller;
+			sourceTree = "<group>";
+		};
+		8B8DAB471C8D25D900122A8B /* AVOSCloud */ = {
+			isa = PBXGroup;
+			children = (
+				8B8DAB481C8D25D900122A8B /* AVOSCloud.framework */,
+				8B8DAB491C8D25D900122A8B /* AVOSCloudCrashReporting.framework */,
+				8B8DAB4A1C8D25D900122A8B /* AVOSCloudIM.framework */,
+			);
+			path = AVOSCloud;
+			sourceTree = "<group>";
+		};
+		8BB8E69E1C9D556F00AE5368 /* login&register */ = {
+			isa = PBXGroup;
+			children = (
+				8B529BA91C9122F200AEC68C /* loginViewController.swift */,
+				8B529BAB1C91232C00AEC68C /* registerViewController.swift */,
+				8B2184811C96631C00ABBC52 /* forgetpasswordViewController.swift */,
+			);
+			name = "login&register";
+			sourceTree = "<group>";
+		};
+		8BB8E69F1C9D558A00AE5368 /* input */ = {
+			isa = PBXGroup;
+			children = (
+				8B9995931C92C21100BBB181 /* MyInformationPageViewController.swift */,
+				8B1923E91C982F820015E980 /* inputsleepTableViewController.swift */,
+				8B9995991C92C30700BBB181 /* inputsleepViewController.swift */,
+				8B2184871C96770200ABBC52 /* inputsportTableViewController.swift */,
+				8B9995971C92C2CE00BBB181 /* inputsportViewController.swift */,
+				8B9995951C92C27700BBB181 /* inputprofileViewController.swift */,
+			);
+			name = input;
+			sourceTree = "<group>";
+		};
+		8BE485A91CA2305A003074A7 /* healthdata */ = {
+			isa = PBXGroup;
+			children = (
+				8B0CEF611C8D716A0008D4FC /* FCSetCharts.swift */,
+				8B8DAB131C8D156A00122A8B /* healthdataViewController.swift */,
+				8B0CEF5E1C8D6A010008D4FC /* sleepViewController.swift */,
+				8B40C17E1C9191070030AD1B /* sportViewController.swift */,
+				8B40C1831C91915F0030AD1B /* profileViewController.swift */,
+			);
+			name = healthdata;
+			sourceTree = "<group>";
+		};
+		8BF51E731CB25DBF0053C18D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8BF51E7A1CB25DBF0053C18D /* Charts.framework */,
+				8BF51E7C1CB25DBF0053C18D /* Charts.framework */,
+				8BF51E7E1CB25DBF0053C18D /* Charts.framework */,
+				8BF51E801CB25DBF0053C18D /* ChartsTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D438D0B138A2574E216DC425 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				EA840E1830ED392ADE344975 /* Pods.debug.xcconfig */,
+				BD232FE6EF3F75874BAE2F0C /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		8B8DAB0D1C8D156A00122A8B /* FitColony */ = {
+		8B8DAB0D1C8D156A00122A8B /* FitCommunity */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 8B8DAB381C8D156A00122A8B /* Build configuration list for PBXNativeTarget "FitColony" */;
+			buildConfigurationList = 8B8DAB381C8D156A00122A8B /* Build configuration list for PBXNativeTarget "FitCommunity" */;
 			buildPhases = (
+				BF88E5228C0536E584EEA7CD /* Check Pods Manifest.lock */,
 				8B8DAB0A1C8D156A00122A8B /* Sources */,
 				8B8DAB0B1C8D156A00122A8B /* Frameworks */,
 				8B8DAB0C1C8D156A00122A8B /* Resources */,
+				8B8DAB541C8D25E800122A8B /* Embed Frameworks */,
+				B3E3DAFA7B9CDD37DB395D4B /* Embed Pods Frameworks */,
+				6B9B7E55D18104C682FA7EB2 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				8BF51E841CB25DCA0053C18D /* PBXTargetDependency */,
 			);
-			name = FitColony;
+			name = FitCommunity;
 			productName = FitColony;
-			productReference = 8B8DAB0E1C8D156A00122A8B /* FitColony.app */;
+			productReference = 8B8DAB0E1C8D156A00122A8B /* FitCommunity.app */;
 			productType = "com.apple.product-type.application";
 		};
 		8B8DAB231C8D156A00122A8B /* FitColonyTests */ = {
@@ -191,11 +526,12 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0710;
-				LastUpgradeCheck = 0710;
+				LastUpgradeCheck = 0730;
 				ORGANIZATIONNAME = li;
 				TargetAttributes = {
 					8B8DAB0D1C8D156A00122A8B = {
 						CreatedOnToolsVersion = 7.1.1;
+						DevelopmentTeam = 4WG2NB36L4;
 					};
 					8B8DAB231C8D156A00122A8B = {
 						CreatedOnToolsVersion = 7.1.1;
@@ -218,23 +554,60 @@
 			mainGroup = 8B8DAB051C8D156A00122A8B;
 			productRefGroup = 8B8DAB0F1C8D156A00122A8B /* Products */;
 			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 8BF51E731CB25DBF0053C18D /* Products */;
+					ProjectRef = 8BF51E721CB25DBF0053C18D /* Charts.xcodeproj */;
+				},
+			);
 			projectRoot = "";
 			targets = (
-				8B8DAB0D1C8D156A00122A8B /* FitColony */,
+				8B8DAB0D1C8D156A00122A8B /* FitCommunity */,
 				8B8DAB231C8D156A00122A8B /* FitColonyTests */,
 				8B8DAB2E1C8D156A00122A8B /* FitColonyUITests */,
 			);
 		};
 /* End PBXProject section */
 
+/* Begin PBXReferenceProxy section */
+		8BF51E7A1CB25DBF0053C18D /* Charts.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = Charts.framework;
+			remoteRef = 8BF51E791CB25DBF0053C18D /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		8BF51E7C1CB25DBF0053C18D /* Charts.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = Charts.framework;
+			remoteRef = 8BF51E7B1CB25DBF0053C18D /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		8BF51E7E1CB25DBF0053C18D /* Charts.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = Charts.framework;
+			remoteRef = 8BF51E7D1CB25DBF0053C18D /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		8BF51E801CB25DBF0053C18D /* ChartsTests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = ChartsTests.xctest;
+			remoteRef = 8BF51E7F1CB25DBF0053C18D /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
 /* Begin PBXResourcesBuildPhase section */
 		8B8DAB0C1C8D156A00122A8B /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8B1A4E941CA3C9B8000B4CBB /* Main.storyboard in Resources */,
+				8B70C0251CE189B800D2F2ED /* Assets.xcassets in Resources */,
 				8B8DAB1E1C8D156A00122A8B /* LaunchScreen.storyboard in Resources */,
-				8B8DAB1B1C8D156A00122A8B /* Assets.xcassets in Resources */,
-				8B8DAB191C8D156A00122A8B /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -254,14 +627,110 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		6B9B7E55D18104C682FA7EB2 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B3E3DAFA7B9CDD37DB395D4B /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BF88E5228C0536E584EEA7CD /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		8B8DAB0A1C8D156A00122A8B /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8B8DAB161C8D156A00122A8B /* SecondViewController.swift in Sources */,
+				8B8BDBE71CABB72C00C99312 /* NPrecord.swift in Sources */,
+				8B8DAB161C8D156A00122A8B /* NotificationViewController.swift in Sources */,
+				8B262A881C96E895005663F8 /* HDsleep.swift in Sources */,
+				8B3C18361CDF442B00E9843F /* CircleTableViewController.swift in Sources */,
 				8B8DAB121C8D156A00122A8B /* AppDelegate.swift in Sources */,
-				8B8DAB141C8D156A00122A8B /* FirstViewController.swift in Sources */,
+				8B3C183A1CDF75B400E9843F /* CircleTwitterTableViewController.swift in Sources */,
+				8B0CEF621C8D716A0008D4FC /* FCSetCharts.swift in Sources */,
+				8B3C182F1CDF3FB300E9843F /* FCUserHealthCircle.swift in Sources */,
+				8B9995961C92C27700BBB181 /* inputprofileViewController.swift in Sources */,
+				8B99959A1C92C30700BBB181 /* inputsleepViewController.swift in Sources */,
+				8B4238211CAD50F5004D54AF /* emailTableViewController.swift in Sources */,
+				8B529BAC1C91232C00AEC68C /* registerViewController.swift in Sources */,
+				8B3C18311CDF407F00E9843F /* FCHealthCircleTwitter.swift in Sources */,
+				8B262A861C96E793005663F8 /* HDsport.swift in Sources */,
+				8B0CEF5F1C8D6A010008D4FC /* sleepViewController.swift in Sources */,
+				8B40C1841C91915F0030AD1B /* profileViewController.swift in Sources */,
+				8B37D6FD1CAA270E00F72CEB /* AVUser+FC.swift in Sources */,
+				8B8BF0EF1CACF1EE009AE4E2 /* avatarViewController.swift in Sources */,
+				8B9995981C92C2CE00BBB181 /* inputsportViewController.swift in Sources */,
+				8B3C18381CDF457800E9843F /* addCircleTableViewController.swift in Sources */,
+				8B9995941C92C21100BBB181 /* MyInformationPageViewController.swift in Sources */,
+				8B2184821C96631C00ABBC52 /* forgetpasswordViewController.swift in Sources */,
+				8B6C49091CAA2542008B993D /* PublicFunction.swift in Sources */,
+				8B1E46201CA247790098ED9E /* FCUIcolor.swift in Sources */,
+				8B37D7051CAA395C00F72CEB /* UIViewController+FC.swift in Sources */,
+				8B2184881C96770200ABBC52 /* inputsportTableViewController.swift in Sources */,
+				8B4B1E201C97ED6B00A9AA17 /* Publicdateformat.swift in Sources */,
+				8B11910A1CA40735007CB1FC /* PublicStruct.swift in Sources */,
+				8BC88C431CA0077500D842F4 /* CircleView.swift in Sources */,
+				8B97E2191CACCF1300A0BF05 /* UserProfile.swift in Sources */,
+				8B725B9C1C9D68AD0021A5AA /* NavigationBarHeight.swift in Sources */,
+				8B4238181CAD4A09004D54AF /* nameTableViewController.swift in Sources */,
+				8B64DC891C97C7F6003CBF32 /* sportandcomsumption.swift in Sources */,
+				8B42381D1CAD50A2004D54AF /* areaTableViewController.swift in Sources */,
+				8BB8E69D1C9D556000AE5368 /* InformationSettingTableViewController.swift in Sources */,
+				8B40C17F1C9191070030AD1B /* sportViewController.swift in Sources */,
+				8B8DAB141C8D156A00122A8B /* healthdataViewController.swift in Sources */,
+				8B1923EA1C982F820015E980 /* inputsleepTableViewController.swift in Sources */,
+				8BBD690C1C9FDCDD007BF674 /* Mycalender.swift in Sources */,
+				8B37D7021CAA389200F72CEB /* addNotificationViewController.swift in Sources */,
+				8BB650A31CA1265800CDFF56 /* UICountingLabel.swift in Sources */,
+				8BB4588D1C8EDF8A00E58712 /* FCDelegate.swift in Sources */,
+				8B3C182A1CDF3E6500E9843F /* FCHealthCircle.swift in Sources */,
+				8B529BAA1C9122F200AEC68C /* loginViewController.swift in Sources */,
+				8B60C7B71C93ED0100E2CCF7 /* HDprofile.swift in Sources */,
+				8BD57BEF1CAE485300ECF0B2 /* oldpasswordupdateTableViewController.swift in Sources */,
+				8BDD878E1CAE2DF6007062F0 /* SettingTableViewController.swift in Sources */,
+				8BA02B9B1C97E55B00D3A8A3 /* TableViewCell.swift in Sources */,
+				8B42381F1CAD50C3004D54AF /* briefTableViewController.swift in Sources */,
+				8B8BF0E81CACE792009AE4E2 /* myProfileTableViewController.swift in Sources */,
+				8B3C183C1CE0A09700E9843F /* addCircleTwitterTableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -286,25 +755,22 @@
 /* Begin PBXTargetDependency section */
 		8B8DAB261C8D156A00122A8B /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 8B8DAB0D1C8D156A00122A8B /* FitColony */;
+			target = 8B8DAB0D1C8D156A00122A8B /* FitCommunity */;
 			targetProxy = 8B8DAB251C8D156A00122A8B /* PBXContainerItemProxy */;
 		};
 		8B8DAB311C8D156A00122A8B /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 8B8DAB0D1C8D156A00122A8B /* FitColony */;
+			target = 8B8DAB0D1C8D156A00122A8B /* FitCommunity */;
 			targetProxy = 8B8DAB301C8D156A00122A8B /* PBXContainerItemProxy */;
+		};
+		8BF51E841CB25DCA0053C18D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Charts-iOS";
+			targetProxy = 8BF51E831CB25DCA0053C18D /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		8B8DAB171C8D156A00122A8B /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				8B8DAB181C8D156A00122A8B /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		8B8DAB1C1C8D156A00122A8B /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -399,23 +865,43 @@
 		};
 		8B8DAB391C8D156A00122A8B /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = EA840E1830ED392ADE344975 /* Pods.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/FitColony/AVOSCloud",
+				);
 				INFOPLIST_FILE = FitColony/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = Mycompany.FitColony;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Debug;
 		};
 		8B8DAB3A1C8D156A00122A8B /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BD232FE6EF3F75874BAE2F0C /* Pods.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/FitColony/AVOSCloud",
+				);
 				INFOPLIST_FILE = FitColony/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = Mycompany.FitColony;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Release;
 		};
@@ -479,13 +965,14 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		8B8DAB381C8D156A00122A8B /* Build configuration list for PBXNativeTarget "FitColony" */ = {
+		8B8DAB381C8D156A00122A8B /* Build configuration list for PBXNativeTarget "FitCommunity" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				8B8DAB391C8D156A00122A8B /* Debug */,
 				8B8DAB3A1C8D156A00122A8B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		8B8DAB3B1C8D156A00122A8B /* Build configuration list for PBXNativeTarget "FitColonyTests" */ = {
 			isa = XCConfigurationList;
@@ -494,6 +981,7 @@
 				8B8DAB3D1C8D156A00122A8B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		8B8DAB3E1C8D156A00122A8B /* Build configuration list for PBXNativeTarget "FitColonyUITests" */ = {
 			isa = XCConfigurationList;
@@ -502,6 +990,7 @@
 				8B8DAB401C8D156A00122A8B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
